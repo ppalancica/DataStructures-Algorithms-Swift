@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B31BF5F92731E7220083AB14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BF5F82731E7220083AB14 /* main.swift */; };
+		B31BF6012731E9310083AB14 /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31BF6002731E9310083AB14 /* SinglyLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		B31BF5F52731E7220083AB14 /* DataStructures-Algorithms-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Algorithms-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31BF5F82731E7220083AB14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B31BF6002731E9310083AB14 /* SinglyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		B31BF5F72731E7220083AB14 /* DataStructures-Algorithms-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B31BF5FF2731E8F70083AB14 /* Data Structures */,
 				B31BF5F82731E7220083AB14 /* main.swift */,
 			);
 			path = "DataStructures-Algorithms-Swift";
+			sourceTree = "<group>";
+		};
+		B31BF5FF2731E8F70083AB14 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				B31BF6002731E9310083AB14 /* SinglyLinkedList.swift */,
+			);
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31BF6012731E9310083AB14 /* SinglyLinkedList.swift in Sources */,
 				B31BF5F92731E7220083AB14 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
